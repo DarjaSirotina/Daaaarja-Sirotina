@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <title>Sirotina – Mājaslapa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Sirotina</h1>
+        <nav>
+            <ul class="nav">
+                <li><a href="#about">Par mums</a></li>
+                <li><a href="#services">Pakalpojumi</a></li>
+                <li><a href="#gallery">Galerija</a></li>
+                <li><a href="#contact">Kontakti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="images/hero.jpg" alt="Galvenais attēls">
+        <p>Laipni lūdzam mūsu mājaslapā</p>
+    </section>
+
+    <section id="about">
+        <h2>Par mums</h2>
+        <p>Šeit ievieto tekstu no maketa.</p>
+    </section>
+
+    <section id="services">
+        <h2>Pakalpojumi</h2>
+        <ul>
+            <li>Pakalpojums 1</li>
+            <li>Pakalpojums 2</li>
+            <li>Pakalpojums 3</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Galerija</h2>
+        <div class="gallery">
+            <img src="images/img1.jpg" alt="Attēls 1">
+            <img src="images/img2.jpg" alt="Attēls 2">
+            <img src="images/img3.jpg" alt="Attēls 3">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakti</h2>
+        <p>E-pasts: info@email.lv</p>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 Sirotina</p>
+    </footer>
+
+</body>
+</html>
